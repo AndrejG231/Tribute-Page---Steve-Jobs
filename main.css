@@ -1,255 +1,280 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --quote:'Satisfy', cursive;
-    --block:'Lato', sans-serif;
-    --heading:'Righteous', cursive;
+:root {
+  --quote: "Satisfy", cursive;
+  --block: "Lato", sans-serif;
+  --heading: "Righteous", cursive;
 }
-body{
-    max-width: 1700px;
-    font-family: var(--block);
-    background: linear-gradient(rgba(255,255,255,0.50),rgba(255,255,255,0.50)),url('https://www.setaswall.com/wp-content/uploads/2017/03/Apple-Mac-Background-Wallpaper-1920x1200-768x480.jpg');
-    background-size: 100%;
-    color:var(--black);
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-
-header{
-    background: rgba(0,0,0,0.5);
-    color: rgb(255, 255, 255);
-    width: 100%;
-}
-.banner{
-        background: rgba(0,0,0,1);
-        position: relative;
-        height: 315px;
-        margin: auto;
-        text-align: center;
-    }
-
-.banner_background{
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 0;
+body {
+  max-width: 1700px;
+  font-family: var(--block);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://www.setaswall.com/wp-content/uploads/2017/03/Apple-Mac-Background-Wallpaper-1920x1200-768x480.jpg");
+  background-size: 100%;
+  color: var(--black);
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
-.banner_background_item{
-        object-fit: cover;
+header {
+  background: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+.banner {
+  background: rgba(0, 0, 0, 1);
+  position: relative;
+  height: 315px;
+  margin: auto;
+  text-align: center;
+}
+
+.banner_background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.banner_background_item {
+  object-fit: cover;
   object-position: +150px 0;
 }
 
-
-.banner_title{
-    position: relative;
-    color: rgb(255,255,255);
-    z-index: 3;
-    font-size: 5rem;
-    font-family: var(--heading);
-    padding-top: 50px;
-    margin-right: 200px;
-    margin-left: 200px;
-    font-size: 6rem;
+.banner_title {
+  position: relative;
+  color: rgb(255, 255, 255);
+  z-index: 3;
+  font-size: 5rem;
+  font-family: var(--heading);
+  padding-top: 50px;
+  margin-right: 200px;
+  margin-left: 200px;
+  font-size: 6rem;
 }
 
-.banner_icons{
-    position: absolute;
-    left: 0;
-    top: 0;
+.banner_icons {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
-.banner_social_icon{
-    position: relative;
-    display:block;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 3rem;
-    padding: 10px;
-    padding-left: 40px;
-    z-index: 3;
+.banner_social_icon {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  padding: 10px;
+  padding-left: 40px;
+  z-index: 3;
 }
 
-.quote{
-    background: rgba(0,0,0,1);
-    position: relative;
-    color: rgb(255, 255, 255);
-    padding: 20px 100px 0px 100px;
-    text-align: center;
+.quote {
+  background: rgba(0, 0, 0, 1);
+  position: relative;
+  color: rgb(255, 255, 255);
+  padding: 20px 100px 0px 100px;
+  text-align: center;
 }
 
-.quote_text{
-    font-family: var(--quote);
-    font-size: 2rem;
+.quote_text {
+  font-family: var(--quote);
+  font-size: 2rem;
 }
 
-.splitter{
-    background: rgba(0,0,0,1);
-    position: relative;
-    z-index: 3;
-    justify-content: center;
-    align-content: center;
-    height: 12px;
+.splitter {
+  background: rgba(0, 0, 0, 1);
+  position: relative;
+  z-index: 3;
+  justify-content: center;
+  align-content: center;
+  height: 12px;
 }
 
-.splitter_line{
-    background-color: rgb(255, 255, 255);
-    width: 80%;
-    height: 6px;
-    z-index: 3;
-    border-radius: 8px;
-    margin: 0px auto;
+.splitter_line {
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  height: 6px;
+  z-index: 3;
+  border-radius: 8px;
+  margin: 0px auto;
 }
-
 
 /* end of header content */
-.section_container{
-    border: 3px solid black;
-
+.section_container {
+  border: 3px solid black;
 }
-.grid_container{
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 100%;
-
+.grid_container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
 }
 
-    .about_pair{
-        display: grid;
-    grid-template-columns: 1fr auto;
-    padding: 50px 100px;
-    margin: auto;
-    
+.about_pair {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 50px 100px;
+  margin: auto;
 }
 
-        .description{
-            padding: 0px 40px;
-            margin: auto;
-
+.description {
+  padding: 0px 40px;
+  margin: auto;
 }
-            .pair_title{
-                font-size: 2rem;
-                font-family: var(--heading);
+.pair_title {
+  font-size: 2rem;
+  font-family: var(--heading);
 }
-            .pair_underline{
-                background: rgba(255,255,255,1);
-                width: 5rem;
-                height: 0.25rem;
-                margin-top: 0.5rem;
-            
+.pair_underline {
+  background: rgba(255, 255, 255, 1);
+  width: 5rem;
+  height: 0.25rem;
+  margin-top: 0.5rem;
 }
-            .pair_text{
-                font-size: 1.5rem;
-                font-family: var(--block);
-
+.pair_text {
+  font-size: 1.5rem;
+  font-family: var(--block);
 }
 
-
-
-        .pair_image{
-            padding: 0px 40px;
-            overflow: hidden;
-
+.pair_image {
+  padding: 0px 40px;
+  overflow: hidden;
 }
-            .pair_image_item{
-                width: 100%;
-                max-width: 30vw;
-                display: block;
-                height: auto;
-                border-radius: 0.25rem;
-
+.pair_image_item {
+  width: 100%;
+  max-width: 30vw;
+  display: block;
+  height: auto;
+  border-radius: 0.25rem;
 }
 
-.swap{
-    order: -1;
+.swap {
+  order: -1;
 }
-.swapgrid{
-    
-    grid-template-columns: auto 1fr;
-}
-
-.disclaimer_container{
-    height: 100px;
-    background: rgb(0, 0, 0);
-    width: 100%;
-    font-family: var(--block);
-    font-size: 1rem;
-    text-align: right;
-    padding-top: 60px;
-    padding-right: 10px;
-
-}
-.last{
-    padding: 20px 50px;
-    width: 100%;
-    border: 3px solid black;
-    border-top: none;
-    background: rgb(0, 0, 0);
+.swapgrid {
+  grid-template-columns: auto 1fr;
 }
 
-.last_item{
-    width: 100%;
+.disclaimer_container {
+  height: 100px;
+  background: rgb(0, 0, 0);
+  width: 100%;
+  font-family: var(--block);
+  font-size: 1rem;
+  text-align: right;
+  padding-top: 60px;
+  padding-right: 10px;
 }
-.last_text{
-    padding: 0px 10px;
-    font-family: var(--quote);
-    font-size: 2rem;
-    text-align: justify;
+.last {
+  padding: 20px 50px;
+  width: 100%;
+  border: 3px solid black;
+  border-top: none;
+  background: rgb(0, 0, 0);
 }
 
+.last_item {
+  width: 100%;
+}
+.last_text {
+  padding: 0px 10px;
+  font-family: var(--quote);
+  font-size: 2rem;
+  text-align: justify;
+}
 
-@media screen and (max-width:1050px){
-.banner{
+@media screen and (max-width: 1050px) {
+  .banner {
     height: auto;
-}
-    .banner_title{
+  }
+  .banner_title {
     margin: auto;
     padding: 0px 20px 0px 20px;
     font-size: 7rem;
-}
-.banner_background{
+  }
+  .banner_background {
     width: 0px;
     height: 0px;
     overflow: hidden;
-}
-.banner_icons{
+  }
+  .banner_icons {
     position: relative;
     margin: auto;
-}
-.banner_social_icon{
+  }
+  .banner_social_icon {
     position: relative;
     display: inline;
     padding: 3px;
-}
-.quote{
+  }
+  .quote {
     position: relative;
     margin: auto;
     margin-top: 0px;
     padding: 20px;
-}
-.about_pair{
+  }
+  .about_pair {
     grid-template-columns: 1fr;
     padding: 50px 20px;
-}
-.swap{
+  }
+  .swap {
     order: 1;
-}
-.description{
+  }
+  .description {
     padding-bottom: 20px;
-}
-.pair_image{
+  }
+  .pair_image {
     margin: auto;
-}
-.pair_image_item{
+  }
+  .pair_image_item {
     max-width: 500px;
-    
-}
-.disclaimer_container{
+  }
+  .disclaimer_container {
     font-size: 0.8rem;
+  }
+  .last{
+      padding: 20px 10px 0px 10px;;
+  }
+  .last_text{
+        text-align: center;
+    }
+  }
+
+
+@media screen and (max-width: 400px) {
+  .banner_title {
+    font-size: 4rem;
+  }
+  .quote_text {
+    font-size: 2rem;
+  }
+  .about_pair{
+      margin: 5px;
+      padding: 0;
+  }
+  .description {
+    padding: 0px 0px;
+    margin: 0;
+  }
+  .pair_image{
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+  }
+  .pair_image_item{
+      width: 95vw;
+      margin: 0;
+      padding: 0;
+  }
+  .last_text{
+    font-size: 1.5rem;
 }
 }
