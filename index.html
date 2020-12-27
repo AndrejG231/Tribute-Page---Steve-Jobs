@@ -8,8 +8,6 @@
 <body>
         <!-- css -->
     <link rel="stylesheet" href="main.css">
-        <!-- javascript -->
-    <script src="js/all.js"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
         <!-- font awesome-->
     <script src="https://kit.fontawesome.com/e0d62bc312.js" crossorigin="anonymous"></script>
@@ -69,6 +67,7 @@
                     <div class="pair_image">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg/1200px-Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg" 
                             alt="Steve Jobs holding Iphone" class='pair_image_item'>
+                            <a class="modal-open"><i class="fas fa-search"></i></a>
                     </div> 
                 </article>
                 <article class="about_pair swapgrid">
@@ -83,6 +82,7 @@
                     <div class="pair_image swap">
                             <img src="https://i.pinimg.com/originals/81/b4/70/81b4704064a2a763de0cce683c8dc5a2.jpg"
                             alt="Steve Jobs and Wozniak" class='pair_image_item'>
+                            <a class="modal-open"><i class="fas fa-search"></i></a>
                     </div> 
                 </article>
                 <article class="about_pair">
@@ -97,6 +97,7 @@
                     <div class="pair_image">
                             <img src="https://i.pinimg.com/originals/e8/ea/bc/e8eabcda9cb347aac3a705ac9c6f6a2a.jpg" 
                             alt="Steve Jobs introducing Macintosh" class='pair_image_item'>
+                            <a class="modal-open"><i class="fas fa-search"></i></a>
                     </div> 
                 </article>
                 <article class="about_pair swapgrid">
@@ -111,6 +112,7 @@
                     <div class="pair_image swap">
                             <img src="https://cdn.britannica.com/45/154745-050-F6421B2A/Steve-Jobs-computer-iMac-1998.jpg" 
                             alt="Steve Jobs holding innovative computer" class='pair_image_item'>
+                            <a class="modal-open"><i class="fas fa-search"></i></a>
                     </div> 
                 </article>
                 <article class="about_pair">
@@ -125,6 +127,7 @@
                     <div class="pair_image">
                             <img src="https://content.fortune.com/wp-content/uploads/2014/12/50962035.jpg" 
                             alt="Steve Jobs introducing I-Tunes" class='pair_image_item'>
+                            <a class="modal-open"><i class="fas fa-search"></i></a>
                     </div> 
                 </article>
                 <article class="about_pair swapgrid">
@@ -139,6 +142,7 @@
                     <div class="pair_image swap">
                             <img src="https://i.cbc.ca/1.2017060.1381569135!/httpImage/image.jpg_gen/derivatives/16x9_940/hi-steve-jobs-memorial-0139.jpg" 
                             alt="Steve Jobs memorial after death" class='pair_image_item'>
+                            <a class="modal-open"><i class="fas fa-search"></i></a>
                     </div> 
                 </article>
             </div>
@@ -154,7 +158,11 @@
                 <span class="disclaimer_text">Website made for educational purposes only, all contents belong to <a href="https://www.britannica.com/" target="_blank">Britannica</a> and other Websites.</span>
             </div>
         </section>
-        
     </header>
+    <div class="modal invisible">
+        <img  class="modal-item" src="#test" alt="">
+        <a class="modal-close"><i class='fas fa-window-close'></i></a>
+    </div>
+    <script src='./app.js' ></script>
 </body>
 </html>
