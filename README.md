@@ -3,8 +3,8 @@
 
 # Buil a Tribute Page
 
-This is one of my first web developer's project, a tribute page to the Steve Jobs.
-This project is one of five project in Responsive Web design curriculum.
+This is one of my first web developer's projects, a tribute page to the Steve Jobs.
+One of five projects in Responsive Web design curriculum.
 
 **Uses:**
 HTML5, CSS3, JavaScript - Basic Syntax and DOM manipulation
